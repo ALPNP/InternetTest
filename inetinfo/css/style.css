@@ -1,0 +1,16 @@
+.buttons button{
+    
+}
+.btn_test{
+    float: left;
+    margin: 3px 3px;
+}
+.btn_save{
+    float: left;
+    margin: 3px 3px;
+}
+.preloader{
+    float: right;
+    display: none;
+    color: #b43232;
+}
