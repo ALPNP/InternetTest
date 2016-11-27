@@ -21,10 +21,15 @@ if ($_GET["request"] == "init")
     
     echo json_encode($response);
 }
-else
+else if ($_GET['request'] == "dev") 
 {
-    array_push($response, '"dev"');
-    echo json_encode($response);
+//    header("HTTP/1.0 404 Not Found");
+//    header("Status: 404 Not Found");
+//    exit(0);
+    
+//    header("HTTP/1.0 503 Service Unaviable");
+//    header("Status: 503 Service Unaviable");
+//    exit(0);
 }
 
 ?>

@@ -13,9 +13,6 @@
     <link href="css/main.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/ping.js"></script>
 </head>
 
 <body>
@@ -93,12 +90,15 @@
                 <div id="inet_test">
                    
                 </div>
-                <script src="js/inettest.js"></script>
             </div>
         </div>
     </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/ping.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/inettest.js"></script>
 </body>
 
 </html>
